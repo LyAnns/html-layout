@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+  }
+  
+  .header {
+	background-color: #444444;
+	min-height: 150px;
+  }
+  
+  .content {
+	background-color: white;
+	height: 800px;
+  }
+  
+  .left {
+	background-color: #d8d8d8;
+	float: left;
+	width: 12%;
+	height: 100%;
+  }
+  
+  .center {
+	background-color: #efefef;
+	height: 100%;
+	width: 76%;
+	float: left;
+  }
+  
+  .right {
+	background-color: #d8d8d8;
+	float: right;
+	width: 12%;
+	height: 100%;
+  }
+  
+  .footer {
+	background-color: #222222;
+	height: 10%;
+	position: fixed;
+	bottom: 0;
+	width: inherit;
+  }
